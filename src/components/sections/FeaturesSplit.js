@@ -49,10 +49,10 @@ const FeaturesSplit = ({
     alignTop && 'align-top'
   );
 
-  const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
-  };
+  // const sectionHeader = {
+  //   title: 'Workflow that just works',
+  //   paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+  // };
 
   return (
     <section
@@ -61,19 +61,20 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Lightning fast machine learning workflow
                   </div>
                 <h3 className="mt-0 mb-12">
                   Data-driven insights
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Explore the inner structure of data. Csv or Excel files can be imported by mouse clicks or drap and drop. The software detects automatically the types of 
+                    all variables and generates many corresponding plots and diagrams to visualize their properties.
                   </p>
               </div>
               <div className={
@@ -83,7 +84,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/EDA01.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +94,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Lightning fast machine learning workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Easier Data Preprocssing
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Many methods for missing values and outliers imputation, feature scaling and dimension reduction can be applied
+                  and transformed into desired format quickly.                  
                   </p>
               </div>
               <div className={
@@ -109,7 +111,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/Preprocessing02.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +121,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Lightning fast machine learning workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Training, Interpretation and Prediction
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Over 50 machine learning algorithms are supported for both regression and classification task. Ensemble methods 
+                  are also easy to use. Permutation, SHAP values are used to interpret the results. Finally prediction can be 
+                  made automatically.
                   </p>
               </div>
               <div className={
@@ -135,7 +139,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/train03.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
