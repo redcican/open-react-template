@@ -72,8 +72,8 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="http://www.eidodata.de/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/redcican/pycaret-eidodata">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="https://985032894.gitbook.io/eidominer/">
+                    View Documentation
                     </Button>
                 </ButtonGroup>
               </div>
